@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Học từ vựng tiếng Anh</title>
+    <title>Crime and the law</title>
     <link rel="stylesheet" href="data/style.css" />
     <!-- Favicon SVG -->
     <link rel="icon" type="image/svg+xml" href="images/icon_e.svg" />
   </head>
-  <body class="home-body">
+  <body>
     <nav class="topnav">
-      <a href="index.html" class="active">🏠 Trang chủ</a>
+      <a href="index.html">🏠 Trang chủ</a>
       <a href="02.html">Numbers</a>
       <a href="03.html">Time expressions</a>
       <a href="04.html">Daily routines</a>
@@ -36,25 +36,34 @@
       <a href="24.html">Studying</a>
       <a href="25.html">Speaking a foreign language</a>
       <a href="26.html">Communication and beliefs</a>
-      <a href="27.html">Crime and the law</a>
+      <a href="27.html" class="active">Crime and the law</a>
     </nav>
 
-    <div class="home-wrap">
-      <h1>📚 Học từ vựng tiếng Anh</h1>
-      <p>Chọn một chủ đề để bắt đầu luyện tập</p>
-
-      <div class="topic-grid">
-        <a class="topic-card" href="02.html">
-          <img src="images/02_number.PNG" alt="Numbers" />
-          <span>Numbers</span>
-          <small>64 từ vựng</small>
-        </a>
-        <a class="topic-card" href="03.html">
-          <img src="images/03_time.PNG" alt="Time expressions" />
-          <span>Time expressions</span>
-          <small>64 từ vựng</small>
-        </a>
+    <div class="header">
+      <h1>🎪 Học từ vựng: Crime and the law</h1>
+      <p>
+        Nhìn hình, gõ tính từ tiếng Anh đúng vào ô trống rồi nhấn <b>Enter</b>.
+      </p>
+      <div class="stats">
+        <span id="score">Đúng: 0</span>
+        <span id="total">/ 0</span>
+        <button id="checkAllBtn">Kiểm tra tất cả</button>
+        <button id="resetBtn">Làm lại</button>
       </div>
     </div>
+
+    <div class="board-wrap" style="max-width: 1280px">
+      <div class="board" style="width: 1280px" id="board">
+        <img src="images/27_crime.PNG" alt="Crime and the law" />
+      </div>
+    </div>
+
+    <p class="hint">
+      Mẹo: nhấn <b>Enter</b> để chuyển sang ô tiếp theo. Viền xanh = đúng, viền
+      đỏ = sai.
+    </p>
+
+    <script src="data/27-words.js"></script>
+    <script src="data/script.js"></script>
   </body>
 </html>
