@@ -9,7 +9,9 @@
   const resetBtn = document.getElementById("resetBtn");
 
   if (!board || typeof PAGE_WORDS === "undefined") {
-    console.error("Thiếu #board trong HTML hoặc chưa load file data (PAGE_WORDS).");
+    console.error(
+      "Thiếu #board trong HTML hoặc chưa load file data (PAGE_WORDS).",
+    );
     return;
   }
 
@@ -17,11 +19,7 @@
   totalEl.textContent = `/ ${words.length}`;
 
   function normalize(str) {
-    return str
-      .toLowerCase()
-      .trim()
-      .replace(/\s+/g, " ")
-      .replace(/[’‘]/g, "'");
+    return str.toLowerCase().trim().replace(/\s+/g, " ").replace(/[’‘]/g, "'");
   }
 
   // Tạo URL audio phát âm theo cấu trúc của Oxford Learner's Dictionaries.
@@ -115,16 +113,19 @@
         if (e.key === "Enter") {
           e.preventDefault();
           checkInput(input, word.answer);
-		  if (input.classList.contains("correct")) {
+          if (input.classList.contains("correct")) {
             playPronunciation(word.answer, audioBtn);
+            const next = board.querySelectorAll(".word-input")[index + 1];
+            if (next) next.focus();
           }
-          const next = board.querySelectorAll(".word-input")[index + 1];
-          if (next) next.focus();
         }
       });
 
       input.addEventListener("input", () => {
-        if (input.classList.contains("wrong") || input.classList.contains("correct")) {
+        if (
+          input.classList.contains("wrong") ||
+          input.classList.contains("correct")
+        ) {
           input.classList.remove("wrong", "correct");
         }
       });
