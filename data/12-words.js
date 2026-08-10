@@ -1,81 +1,96 @@
 const PAGE_WORDS = [
   // --- PAGE 54: 12.1 TOOLS AND HOME IMPROVEMENT ---
   // Hàng 1
-  { answer: "tape measure", left: "4.8", top: "23.1", width: "65" },
-  { answer: "hammer", left: "13.6", top: "23.1", width: "45" },
-  { answer: "vise (US) / vice (UK)", left: "20.5", top: "23.1", width: "80" },
-  { answer: "file", left: "31.2", top: "23.1", width: "28" },
-  { answer: "ladder", left: "38.1", top: "23.1", width: "38" },
+  { answer: "tape measure", left: "8.8", top: "25.1", width: "95" },
+  { answer: "hammer", left: "16.6", top: "25.1", width: "75" },
+  { answer: "vise/vice", left: "26.5", top: "23.9", width: "110" },
+  { answer: "file", left: "34.2", top: "25.1", width: "58" },
+  { answer: "ladder", left: "43.1", top: "25.1", width: "68" },
 
   // Hàng 2
-  { answer: "hacksaw", left: "5.1", top: "39.4", width: "52" },
-  { answer: "saw", left: "14.2", top: "39.4", width: "28" },
-  { answer: "screwdriver", left: "21.1", top: "39.4", width: "65" },
-  { answer: "nut", left: "31.0", top: "39.4", width: "28" },
-  { answer: "tool box", left: "37.5", top: "39.4", width: "48" },
+  { answer: "hacksaw", left: "8.1", top: "41.4", width: "82" },
+  { answer: "saw", left: "16.2", top: "41.4", width: "58" },
+  { answer: "screwdriver", left: "26.1", top: "41.4", width: "95" },
+  { answer: "nut", left: "34.0", top: "41.4", width: "58" },
+  { answer: "tool box", left: "42.5", top: "41.4", width: "78" },
 
   // Hàng 3
-  { answer: "bolt", left: "6.2", top: "55.7", width: "32" },
-  { answer: "screw", left: "13.9", top: "55.7", width: "38" },
-  { answer: "nail", left: "22.6", top: "55.7", width: "28" },
-  { answer: "drill", left: "31.0", top: "55.7", width: "30" },
-  { answer: "ax (US) / axe (UK)", left: "36.8", top: "55.7", width: "75" },
+  { answer: "bolt", left: "8.2", top: "58.7", width: "62" },
+  { answer: "screw", left: "16.9", top: "58.7", width: "68" },
+  { answer: "nail", left: "25.6", top: "58.7", width: "58" },
+  { answer: "drill", left: "34.0", top: "58.7", width: "60" },
+  { answer: "ax/axe", left: "42.8", top: "58.7", width: "105" },
 
   // Hàng 4
-  { answer: "pliers", left: "5.8", top: "71.8", width: "38" },
-  { answer: "monkey wrench", left: "11.6", top: "71.8", width: "78" },
-  { answer: "wrench (US) / spanner (UK)", left: "20.2", top: "71.8", width: "85" },
-  { answer: "jigsaw", left: "30.5", top: "71.8", width: "38" },
-  { answer: "hex / Allen keys", left: "36.5", top: "71.8", width: "78" },
+  { answer: "pliers", left: "8.8", top: "75.8", width: "68" },
+  { answer: "monkey wrench", left: "17.6", top: "75.8", width: "108" },
+  {
+    answer: "wrench/spanner",
+    left: "26.2",
+    top: "74.8",
+    width: "115",
+  },
+  { answer: "jigsaw", left: "33.5", top: "75.8", width: "68" },
+  { answer: "hex/Allen keys", left: "42.5", top: "75.8", width: "108" },
 
   // Hàng 5
-  { answer: "level (US) / spirit level (UK)", left: "3.8", top: "88.1", width: "85" },
-  { answer: "paint", left: "14.0", top: "88.1", width: "35" },
-  { answer: "paintbrush", left: "21.0", top: "88.1", width: "58" },
-  { answer: "roller", left: "30.3", top: "88.1", width: "35" },
-  { answer: "plane", left: "38.2", top: "88.1", width: "35" },
+  {
+    answer: "level/spirit level",
+    left: "8.8",
+    top: "91.1",
+    width: "115",
+  },
+  { answer: "paint", left: "17.0", top: "92.1", width: "65" },
+  { answer: "paintbrush", left: "25.0", top: "92.1", width: "88" },
+  { answer: "roller", left: "34.3", top: "92.1", width: "65" },
+  { answer: "plane", left: "42.2", top: "92.1", width: "65" },
 
   // --- PAGE 55: 12.2 GARDENING EQUIPMENT (Phần trên) ---
   // Hàng 1
-  { answer: "trowel", left: "54.7", top: "24.2", width: "38" },
-  { answer: "shears", left: "63.0", top: "24.2", width: "38" },
-  { answer: "spade", left: "71.5", top: "24.2", width: "35" },
-  { answer: "hoe", left: "80.6", top: "24.2", width: "28" },
-  { answer: "rake", left: "88.9", top: "24.2", width: "28" },
+  { answer: "trowel", left: "58.7", top: "17.2", width: "68" },
+  { answer: "shears", left: "67.0", top: "17.2", width: "68" },
+  { answer: "spade", left: "75.5", top: "17.2", width: "65" },
+  { answer: "hoe", left: "84.6", top: "17.2", width: "58" },
+  { answer: "rake", left: "92.9", top: "17.2", width: "58" },
 
   // Hàng 2
-  { answer: "fork", left: "55.1", top: "48.2", width: "28" },
-  { answer: "wheelbarrow", left: "61.3", top: "48.2", width: "72" },
-  { answer: "hose", left: "71.6", top: "48.2", width: "32" },
-  { answer: "sprinkler", left: "79.6", top: "48.2", width: "48" },
-  { answer: "lawn mower", left: "86.8", top: "48.2", width: "68" },
+  { answer: "fork", left: "58.1", top: "32.2", width: "58" },
+  { answer: "wheelbarrow", left: "67.3", top: "32.2", width: "102" },
+  { answer: "hose", left: "75.6", top: "32.2", width: "62" },
+  { answer: "sprinkler", left: "84.6", top: "32.2", width: "78" },
+  { answer: "lawn mower", left: "92.8", top: "32.2", width: "98" },
 
   // --- PAGE 55: 12.3 HOME IMPROVEMENT VERBS (Góc dưới bên trái) ---
   // Hàng 1
-  { answer: "to paint the house", left: "53.2", top: "71.8", width: "68" },
-  { answer: "to paint a room", left: "62.1", top: "71.8", width: "65" },
-  { answer: "to plaster the walls", left: "70.4", top: "71.8", width: "72" },
+  { answer: "to paint the house", left: "58.2", top: "57.2", width: "98" },
+  { answer: "to paint a room", left: "67.1", top: "57.2", width: "95" },
+  { answer: "to plaster the walls", left: "75.4", top: "57.2", width: "102" },
 
   // Hàng 2
-  { answer: "to tile the bathroom", left: "53.0", top: "88.1", width: "72" },
-  { answer: "to fit a carpet", left: "62.4", top: "88.1", width: "60" },
-  { answer: "to put up shelves", left: "70.8", top: "88.1", width: "68" },
+  { answer: "to tile the bathroom", left: "58.2", top: "74.1", width: "102" },
+  { answer: "to fit a carpet", left: "67.4", top: "74.1", width: "90" },
+  { answer: "to put up shelves", left: "75.8", top: "74.1", width: "98" },
 
   // Hàng 3
-  { answer: "to make curtains", left: "53.4", top: "98.1", width: "65" },
-  { answer: "to unclog / unblock the sink", left: "60.4", top: "98.1", width: "100" },
-  { answer: "to change a lightbulb", left: "70.4", top: "98.1", width: "72" },
+  { answer: "to make curtains", left: "58.2", top: "91.1", width: "95" },
+  {
+    answer: "to unclog/unblock the sink",
+    left: "67.0",
+    top: "91.1",
+    width: "120",
+  },
+  { answer: "to change a lightbulb", left: "75.4", top: "91.1", width: "102" },
 
   // --- PAGE 55: 12.4 GARDENING VERBS (Góc dưới bên phải) ---
   // Hàng 1
-  { answer: "to mow the lawn", left: "80.8", top: "71.8", width: "65" },
-  { answer: "to do the weeding", left: "88.8", top: "71.8", width: "68" },
+  { answer: "to mow the lawn", left: "85.8", top: "57.2", width: "95" },
+  { answer: "to do the weeding", left: "93.8", top: "57.2", width: "98" },
 
   // Hàng 2
-  { answer: "to plant bulbs", left: "81.0", top: "88.1", width: "62" },
-  { answer: "to prune trees", left: "89.0", top: "88.1", width: "65" },
+  { answer: "to plant bulbs", left: "85.8", top: "75.1", width: "92" },
+  { answer: "to prune trees", left: "93.0", top: "75.1", width: "95" },
 
   // Hàng 3
-  { answer: "to trim a hedge", left: "81.1", top: "98.1", width: "62" },
-  { answer: "to water the flowers", left: "88.4", top: "98.1", width: "72" }
+  { answer: "to trim a hedge", left: "85.8", top: "91.1", width: "92" },
+  { answer: "to water the flowers", left: "93.4", top: "91.1", width: "102" },
 ];

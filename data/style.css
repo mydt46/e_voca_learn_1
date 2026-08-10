@@ -16,7 +16,7 @@ body {
 /* ===== Thanh điều hướng ===== */
 .topnav {
   width: 100%;
-  max-width: 900px;
+  max-width: 1400px;
   display: flex;
   gap: 8px;
   justify-content: center;
@@ -47,6 +47,15 @@ body {
 .topnav a.active {
   background: #3498db;
   color: white;
+}
+
+.topnav .done {
+  background: #1a5276;
+  color: white;
+}
+
+.topnav .learning {
+  background: #7fffd4;
 }
 
 /* ===== Trang chủ ===== */
