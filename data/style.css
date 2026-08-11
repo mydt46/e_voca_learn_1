@@ -58,6 +58,11 @@ body {
   background: #7fffd4;
 }
 
+.topnav .skip {
+  background: #8e9499;
+  color: white;
+}
+
 /* ===== Trang chủ ===== */
 .home-body {
   align-items: center;

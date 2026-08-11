@@ -16,7 +16,7 @@ const PAGE_WORDS = [
     width: "130",
   },
   {
-    answer: "to clean up/to tidy",
+    answer: "to clean up/ to tidy",
     left: "25.2",
     top: "42.6",
     width: "115",
@@ -62,7 +62,7 @@ const PAGE_WORDS = [
   { answer: "laundry basket", left: "75.1", top: "20.6", width: "105" },
   { answer: "laundry detergent", left: "84.0", top: "20.6", width: "115" },
   {
-    answer: "clothes line/washing line",
+    answer: "clothes line/ washing line",
     left: "93.0",
     top: "19.2",
     width: "125",
@@ -82,7 +82,7 @@ const PAGE_WORDS = [
 
   // Hàng 3
   {
-    answer: "dishwashing liquid/washing up liquid",
+    answer: "dishwashing liquid/ washing up liquid",
     left: "59.8",
     top: "55.0",
     width: "130",
@@ -104,7 +104,7 @@ const PAGE_WORDS = [
   { answer: "broom", left: "67.2", top: "92.4", width: "68" },
   { answer: "recycling bin", left: "75.6", top: "92.4", width: "95" },
   {
-    answer: "garbage bag/bin liner",
+    answer: "garbage bag/ bin liner",
     left: "84.0",
     top: "90.8",
     width: "115",
