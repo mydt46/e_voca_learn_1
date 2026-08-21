@@ -8,7 +8,7 @@ const PAGE_WORDS = [
   { answer: "street address", left: "41.0", top: "24.4", width: "92" },
   { answer: "state", left: "42.7", top: "36.7", width: "52" },
   {
-    answer: "cell phone number (US) / mobile number (UK)",
+    answer: "cell phone number/mobile number",
     left: "10.4",
     top: "54.9",
     width: "130",
@@ -16,7 +16,7 @@ const PAGE_WORDS = [
   { answer: "email address", left: "21.2", top: "55.9", width: "88" },
   { answer: "city", left: "32.8", top: "55.9", width: "50" },
   {
-    answer: "zip code (US) / postcode (UK)",
+    answer: "zip code/postcode",
     left: "40.4",
     top: "54.9",
     width: "105",
