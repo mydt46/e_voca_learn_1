@@ -1,73 +1,81 @@
 const PAGE_WORDS = [
   // --- PAGE 74: 17.1 HAIR ---
-  // Hàng 1
-  { answer: "long hair", left: "6.2", top: "23.1", width: "45" },
-  { answer: "short hair", left: "14.2", top: "23.1", width: "48" },
-  { answer: "shoulder-length hair", left: "19.5", top: "22.0", width: "95" },
-  { answer: "bald", left: "30.8", top: "23.1", width: "28" },
-  { answer: "straight hair", left: "37.5", top: "23.1", width: "58" },
-
-  // Hàng 2
-  { answer: "wavy hair", left: "6.0", top: "39.4", width: "48" },
-  { answer: "curly hair", left: "14.2", top: "39.4", width: "45" },
-  { answer: "frizzy hair", left: "22.5", top: "39.4", width: "42" },
-  { answer: "ponytail", left: "30.2", top: "39.4", width: "42" },
-  { answer: "black hair", left: "38.0", top: "39.4", width: "48" },
-
-  // Hàng 3
-  { answer: "brown hair", left: "5.8", top: "55.7", width: "52" },
-  { answer: "blond hair", left: "14.0", top: "55.7", width: "48" },
-  { answer: "red hair", left: "22.6", top: "55.7", width: "40" },
-  { answer: "gray hair (US) / grey hair (UK)", left: "28.5", top: "54.6", width: "85" },
-  { answer: "facial hair", left: "38.0", top: "55.7", width: "48" },
-
-  // Hàng 4
-  { answer: "beard", left: "6.8", top: "71.8", width: "32" },
-  { answer: "goatee", left: "14.2", top: "71.8", width: "38" },
-  { answer: "mustache (US) / moustache (UK)", left: "19.8", top: "70.8", width: "90" },
-  { answer: "stubble", left: "30.5", top: "71.8", width: "35" },
-  { answer: "sideburns", left: "37.6", top: "71.8", width: "48" },
-
-  // --- PAGE 74: 17.2 VERBS ---
-  { answer: "to style your hair", left: "3.8", top: "88.1", width: "72" },
-  { answer: "to have / get your hair cut", left: "11.2", top: "87.0", width: "100" },
-  { answer: "to tie your hair back", left: "20.8", top: "87.0", width: "75" },
-  { answer: "to shave", left: "30.5", top: "88.1", width: "35" },
-  { answer: "to grow your hair", left: "36.8", top: "88.1", width: "72" },
-
-  // --- PAGE 75: 17.3 EYES ---
-  { answer: "blue", left: "55.2", top: "14.9", width: "30" },
-  { answer: "brown", left: "63.7", top: "14.9", width: "32" },
-  { answer: "green", left: "72.4", top: "14.9", width: "30" },
-  { answer: "hazel", left: "81.0", top: "14.9", width: "30" },
-  { answer: "gray (US) / grey (UK)", left: "86.4", top: "14.9", width: "78" },
-
-  // --- PAGE 75: 17.4 APPEARANCE AND STYLE ---
-  // Hàng 1
-  { answer: "short", left: "55.0", top: "39.4", width: "30" },
-  { answer: "medium height", left: "61.6", top: "39.4", width: "72" },
-  { answer: "tall", left: "72.8", top: "39.4", width: "25" },
-  { answer: "beautiful", left: "80.2", top: "39.4", width: "45" },
-  { answer: "handsome", left: "88.6", top: "39.4", width: "52" },
-
-  // Hàng 2
-  { answer: "young", left: "54.8", top: "55.7", width: "32" },
-  { answer: "middle-aged", left: "62.4", top: "55.7", width: "62" },
-  { answer: "old", left: "73.0", top: "55.7", width: "25" },
-  { answer: "formal (US) / smart (UK)", left: "78.4", top: "54.6", width: "80" },
-  { answer: "casual", left: "89.2", top: "55.7", width: "35" },
-
-  // Hàng 3
-  { answer: "elegant", left: "54.4", top: "71.8", width: "40" },
-  { answer: "glamorous", left: "62.3", top: "71.8", width: "58" },
-  { answer: "dark skin", left: "71.4", top: "71.8", width: "45" },
-  { answer: "tan skin (US) / tanned skin (UK)", left: "77.8", top: "70.8", width: "90" },
-  { answer: "olive skin", left: "88.4", top: "71.8", width: "48" },
-
-  // Hàng 4
-  { answer: "fair skin", left: "54.6", top: "88.1", width: "38" },
-  { answer: "pale skin", left: "63.0", top: "88.1", width: "42" },
-  { answer: "freckles", left: "71.5", top: "88.1", width: "42" },
-  { answer: "wrinkles", left: "80.1", top: "88.1", width: "42" },
-  { answer: "mole", left: "89.2", top: "88.1", width: "28" }
+  { answer: "long hair", left: "7.9", top: "26.2", width: "78" },
+  { answer: "short hair", left: "16.7", top: "25.9", width: "83" },
+  {
+    answer: "shoulder-length hair",
+    left: "25.4",
+    top: "24.4",
+    width: "138",
+  },
+  { answer: "bald", left: "33.6", top: "25.8", width: "65" },
+  { answer: "straight hair", left: "42.4", top: "25.5", width: "91" },
+  { answer: "wavy hair", left: "7.7", top: "40.3", width: "79" },
+  { answer: "curly hair", left: "16.6", top: "40.8", width: "89" },
+  { answer: "frizzy hair", left: "25.2", top: "40.1", width: "84" },
+  { answer: "ponytail", left: "33.6", top: "40.4", width: "88" },
+  { answer: "black hair", left: "42.8", top: "40.1", width: "82" },
+  { answer: "brown hair", left: "8.1", top: "54.8", width: "84" },
+  { answer: "blond hair", left: "16.6", top: "55.0", width: "79" },
+  { answer: "red hair", left: "25.0", top: "54.8", width: "79" },
+  {
+    answer: "gray hair/grey hair",
+    left: "33.9",
+    top: "53.4",
+    width: "118",
+  },
+  { answer: "facial hair", left: "42.4", top: "54.1", width: "87" },
+  { answer: "beard", left: "7.7", top: "69.5", width: "66" },
+  { answer: "goatee", left: "16.0", top: "69.4", width: "75" },
+  { answer: "mustache", left: "25.1", top: "68.0", width: "109" },
+  { answer: "moustache", left: "25.1", top: "72.2", width: "77" },
+  { answer: "stubble", left: "33.6", top: "69.0", width: "80" },
+  { answer: "sideburns", left: "42.1", top: "69.2", width: "84" },
+  { answer: "to style your hair", left: "7.8", top: "93.0", width: "118" },
+  {
+    answer: "to have your hair cut",
+    left: "16.6",
+    top: "90.8",
+    width: "118",
+  },
+  {
+    answer: "to get your hair cut",
+    left: "16.6",
+    top: "95.8",
+    width: "118",
+  },
+  {
+    answer: "to tie your hair back",
+    left: "25.9",
+    top: "90.8",
+    width: "125",
+  },
+  { answer: "to shave", left: "33.7", top: "92.2", width: "68" },
+  { answer: "to grow your hair", left: "42.7", top: "91.7", width: "112" },
+  { answer: "hazel", left: "83.2", top: "17.4", width: "60" },
+  { answer: "short", left: "57.9", top: "41.8", width: "59" },
+  { answer: "medium height", left: "66.7", top: "42.0", width: "102" },
+  { answer: "tall", left: "75.2", top: "41.6", width: "49" },
+  { answer: "beautiful", left: "83.7", top: "41.1", width: "80" },
+  { answer: "handsome", left: "92.4", top: "41.4", width: "82" },
+  { answer: "young", left: "58.0", top: "58.6", width: "71" },
+  { answer: "middle-aged", left: "66.7", top: "58.6", width: "90" },
+  { answer: "old", left: "74.8", top: "58.6", width: "62" },
+  { answer: "formal/smart", left: "83.7", top: "57.2", width: "106" },
+  { answer: "casual", left: "92.2", top: "58.1", width: "65" },
+  { answer: "elegant", left: "58.0", top: "75.4", width: "77" },
+  { answer: "glamorous", left: "66.3", top: "75.6", width: "86" },
+  { answer: "dark skin", left: "75.2", top: "75.6", width: "81" },
+  {
+    answer: "tan skin/tanned skin",
+    left: "84.4",
+    top: "73.7",
+    width: "127",
+  },
+  { answer: "olive skin", left: "92.6", top: "75.1", width: "79" },
+  { answer: "fair skin", left: "57.7", top: "92.3", width: "80" },
+  { answer: "pale skin", left: "66.6", top: "91.9", width: "77" },
+  { answer: "freckles", left: "75.6", top: "92.3", width: "72" },
+  { answer: "wrinkles", left: "83.8", top: "91.7", width: "76" },
+  { answer: "mole", left: "92.3", top: "92.3", width: "56" },
 ];

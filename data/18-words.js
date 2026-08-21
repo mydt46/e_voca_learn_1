@@ -1,73 +1,73 @@
 const PAGE_WORDS = [
   // --- PAGE 78: 18.1 DESCRIBING PERSONALITY (Trang trái) ---
   // Hàng 1
-  { answer: "friendly", left: "5.8", top: "23.1", width: "38" },
-  { answer: "unfriendly", left: "13.4", top: "23.1", width: "52" },
-  { answer: "talkative", left: "22.2", top: "23.1", width: "45" },
-  { answer: "enthusiastic", left: "29.9", top: "23.1", width: "62" },
-  { answer: "serious", left: "39.6", top: "23.1", width: "38" },
+  { answer: "friendly", left: "7.6", top: "27.9", width: "75" },
+  { answer: "unfriendly", left: "16.8", top: "27.7", width: "81" },
+  { answer: "talkative", left: "25.4", top: "27.7", width: "82" },
+  { answer: "enthusiastic", left: "33.9", top: "27.9", width: "92" },
+  { answer: "serious", left: "42.9", top: "27.6", width: "78" },
 
   // Hàng 2
-  { answer: "assertive", left: "5.6", top: "39.4", width: "42" },
-  { answer: "critical", left: "14.2", top: "39.4", width: "35" },
-  { answer: "caring", left: "22.9", top: "39.4", width: "32" },
-  { answer: "sensitive", left: "30.7", top: "39.4", width: "45" },
-  { answer: "insensitive", left: "38.9", top: "39.4", width: "52" },
+  { answer: "assertive", left: "8.0", top: "43.8", width: "88" },
+  { answer: "critical", left: "16.9", top: "43.5", width: "70" },
+  { answer: "caring", left: "25.5", top: "43.4", width: "72" },
+  { answer: "sensitive", left: "34.2", top: "43.8", width: "76" },
+  { answer: "insensitive", left: "43.4", top: "43.8", width: "88" },
 
   // Hàng 3
-  { answer: "reasonable", left: "5.1", top: "55.7", width: "52" },
-  { answer: "unreasonable", left: "12.7", top: "55.7", width: "65" },
-  { answer: "kind", left: "23.0", top: "55.7", width: "28" },
-  { answer: "unkind", left: "31.1", top: "55.7", width: "38" },
-  { answer: "secretive", left: "39.2", top: "55.7", width: "45" },
+  { answer: "reasonable", left: "8.0", top: "59.7", width: "95" },
+  { answer: "unreasonable", left: "16.8", top: "59.6", width: "92" },
+  { answer: "kind", left: "25.4", top: "59.2", width: "64" },
+  { answer: "unkind", left: "34.0", top: "59.9", width: "72" },
+  { answer: "secretive", left: "43.0", top: "60.0", width: "81" },
 
   // Hàng 4
-  { answer: "mature", left: "5.8", top: "71.8", width: "38" },
-  { answer: "immature", left: "13.4", top: "71.8", width: "52" },
-  { answer: "cautious", left: "22.4", top: "71.8", width: "42" },
-  { answer: "generous", left: "30.6", top: "71.8", width: "48" },
-  { answer: "mean", left: "39.9", top: "71.8", width: "30" },
+  { answer: "mature", left: "7.8", top: "76.3", width: "80" },
+  { answer: "immature", left: "17.0", top: "76.2", width: "83" },
+  { answer: "cautious", left: "25.5", top: "76.3", width: "87" },
+  { answer: "generous", left: "34.5", top: "75.8", width: "92" },
+  { answer: "mean", left: "43.1", top: "75.8", width: "76" },
 
   // Hàng 5
-  { answer: "brave", left: "6.1", top: "88.1", width: "32" },
-  { answer: "funny", left: "14.4", top: "88.1", width: "32" },
-  { answer: "patient", left: "22.6", top: "88.1", width: "38" },
-  { answer: "impatient", left: "30.5", top: "88.1", width: "50" },
-  { answer: "lazy", left: "40.0", top: "88.1", width: "28" },
+  { answer: "brave", left: "7.9", top: "92.5", width: "66" },
+  { answer: "funny", left: "17.4", top: "92.0", width: "72" },
+  { answer: "patient", left: "25.5", top: "92.4", width: "79" },
+  { answer: "impatient", left: "34.3", top: "92.2", width: "82" },
+  { answer: "lazy", left: "43.1", top: "92.4", width: "58" },
 
   // --- PAGE 79: 18.1 DESCRIBING PERSONALITY (Trang phải) ---
   // Hàng 1
-  { answer: "laid-back", left: "54.2", top: "23.1", width: "45" },
-  { answer: "optimistic", left: "62.5", top: "23.1", width: "50" },
-  { answer: "outgoing", left: "71.2", top: "23.1", width: "45" },
-  { answer: "passionate", left: "79.4", top: "23.1", width: "52" },
-  { answer: "polite", left: "89.0", top: "23.1", width: "30" },
+  { answer: "laid-back", left: "57.4", top: "28.4", width: "85" },
+  { answer: "optimistic", left: "66.6", top: "27.6", width: "83" },
+  { answer: "outgoing", left: "75.0", top: "27.9", width: "75" },
+  { answer: "passionate", left: "83.8", top: "28.6", width: "81" },
+  { answer: "polite", left: "92.2", top: "27.9", width: "76" },
 
   // Hàng 2
-  { answer: "rude", left: "55.1", top: "39.4", width: "28" },
-  { answer: "shy", left: "63.7", top: "39.4", width: "25" },
-  { answer: "intelligent", left: "70.9", top: "39.4", width: "52" },
-  { answer: "nervous", left: "79.9", top: "39.4", width: "42" },
-  { answer: "silly", left: "89.2", top: "39.4", width: "25" },
+  { answer: "rude", left: "57.1", top: "44.2", width: "62" },
+  { answer: "shy", left: "66.1", top: "43.9", width: "65" },
+  { answer: "intelligent", left: "74.8", top: "44.3", width: "81" },
+  { answer: "nervous", left: "84.0", top: "44.1", width: "78" },
+  { answer: "silly", left: "92.5", top: "43.5", width: "58" },
 
   // Hàng 3
-  { answer: "selfish", left: "54.9", top: "55.7", width: "32" },
-  { answer: "eccentric", left: "62.7", top: "55.7", width: "45" },
-  { answer: "calm", left: "72.1", top: "55.7", width: "28" },
-  { answer: "confident", left: "79.6", top: "55.7", width: "48" },
-  { answer: "honest", left: "88.6", top: "55.7", width: "38" },
+  { answer: "selfish", left: "56.8", top: "59.6", width: "73" },
+  { answer: "eccentric", left: "66.1", top: "59.9", width: "89" },
+  { answer: "calm", left: "74.9", top: "59.6", width: "63" },
+  { answer: "confident", left: "83.6", top: "59.9", width: "74" },
+  { answer: "honest", left: "92.3", top: "60.0", width: "69" },
 
   // Hàng 4
-  { answer: "dishonest", left: "54.0", top: "71.8", width: "50" },
-  { answer: "supportive", left: "62.4", top: "71.8", width: "52" },
-  { answer: "reliable", left: "71.6", top: "71.8", width: "38" },
-  { answer: "unreliable", left: "79.4", top: "71.8", width: "52" },
-  { answer: "talented", left: "88.4", top: "71.8", width: "42" },
+  { answer: "dishonest", left: "57.3", top: "75.9", width: "71" },
+  { answer: "supportive", left: "65.9", top: "75.6", width: "81" },
+  { answer: "reliable", left: "75.1", top: "76.0", width: "78" },
+  { answer: "unreliable", left: "83.6", top: "75.6", width: "81" },
+  { answer: "talented", left: "92.2", top: "75.6", width: "79" },
 
   // Hàng 5
-  { answer: "arrogant", left: "54.4", top: "88.1", width: "42" },
-  { answer: "considerate", left: "62.1", top: "88.1", width: "58" },
-  { answer: "impulsive", left: "71.1", top: "88.1", width: "48" },
-  { answer: "approachable", left: "78.8", top: "88.1", width: "65" },
-  { answer: "unapproachable", left: "86.8", top: "88.1", width: "75" }
+  { answer: "arrogant", left: "57.2", top: "92.7", width: "80" },
+  { answer: "considerate", left: "66.0", top: "92.2", width: "93" },
+  { answer: "impulsive", left: "74.8", top: "92.0", width: "85" },
+  { answer: "approachable", left: "83.8", top: "91.8", width: "96" },
+  { answer: "unapproachable", left: "92.6", top: "92.0", width: "110" },
 ];
