@@ -1,66 +1,66 @@
 const PAGE_WORDS = [
   // --- PAGE 94: 22.1 EQUIPMENT AND CLOTHES (Sơ đồ trên) ---
-  { answer: "changing mat", left: "4.2", top: "24.5", width: "52" },
-  { answer: "changing table", left: "4.2", top: "33.3", width: "55" },
-  { answer: "teddy bear", left: "10.2", top: "39.4", width: "58" },
-  { answer: "nursery", left: "18.8", top: "39.4", width: "48" },
-  { answer: "potty", left: "28.0", top: "39.4", width: "32" },
-  { answer: "mobile", left: "31.8", top: "21.5", width: "42" },
-  { answer: "crib (US) / cot (UK)", left: "32.8", top: "28.5", width: "68" },
-  { answer: "diaper (US) / nappy (UK)", left: "39.2", top: "22.0", width: "65" },
-  { answer: "high chair", left: "39.6", top: "39.4", width: "52" },
+  { answer: "changing mat", left: "7.2", top: "27.4", width: "74"},
+  { answer: "changing table", left: "7.3", top: "37.0", width: "82" },
+  { answer: "teddy bear", left: "13.0", top: "42.1", width: "73" },
+  { answer: "nursery", left: "21.1", top: "42.8", width: "69" },
+  { answer: "potty", left: "29.3", top: "42.5", width: "59" },
+  { answer: "mobile", left: "35.9", top: "24.2", width: "68" },
+  { answer: "crib/cot", left: "36.2", top: "31.8", width: "75" },
+  { answer: "diaper/nappy",  left: "43.0", top: "25.8", width: "86"},
+  { answer: "high chair", left: "42.9", top: "42.6", width: "77"},
 
   // --- PAGE 94: 22.1 EQUIPMENT AND CLOTHES (Lưới 5 cột) ---
   // Hàng 1
-  { answer: "pacifier (US) / dummy (UK)", left: "3.8", top: "55.7", width: "80" },
-  { answer: "stroller (US) / buggy (UK)", left: "12.0", top: "55.7", width: "75" },
-  { answer: "baby carriage (US) / pram (UK)", left: "19.5", top: "55.7", width: "98" },
-  { answer: "bottle", left: "32.1", top: "55.7", width: "35" },
-  { answer: "wet wipe", left: "39.8", top: "55.7", width: "52" },
+  { answer: "pacifier/dummy", left: "8.1", top: "58.4", width: "111"},
+  { answer: "stroller/buggy", left: "16.8", top: "58.2", width: "82" },
+  { answer: "baby carriage/pram", left: "25.3", top: "58.0", width: "101" },
+  { answer: "bottle", left: "33.3", top: "58.7", width: "59" },
+  { answer: "wet wipe",  left: "42.8", top: "58.6", width: "75" },
 
   // Hàng 2
-  { answer: "Moses basket", left: "4.8", top: "71.8", width: "68" },
-  { answer: "playpen", left: "14.6", top: "71.8", width: "45" },
-  { answer: "stair gate", left: "22.6", top: "71.8", width: "48" },
-  { answer: "baby monitor", left: "30.0", top: "71.8", width: "65" },
-  { answer: "romper suit", left: "38.6", top: "71.8", width: "62" },
+  { answer: "Moses basket",left: "8.6", top: "75.9", width: "83" },
+  { answer: "playpen", left: "16.4", top: "75.7", width: "69" },
+  { answer: "stair gate",  left: "25.4", top: "76.1", width: "73" },
+  { answer: "baby monitor", left: "33.9", top: "75.8", width: "85" },
+  { answer: "romper suit", left: "42.3", top: "75.9", width: "75" },
 
   // Hàng 3
-  { answer: "snowsuit", left: "5.8", top: "88.1", width: "48" },
-  { answer: "bib", left: "15.0", top: "88.1", width: "28" },
-  { answer: "booties", left: "22.5", top: "88.1", width: "42" },
-  { answer: "bodysuit (US) / babygro (UK)", left: "29.8", top: "87.0", width: "75" },
-  { answer: "rattle", left: "40.2", top: "88.1", width: "32" },
+  { answer: "snowsuit", left: "8.1", top: "92.3", width: "71"},
+  { answer: "bib",  left: "16.8", top: "92.1", width: "47" },
+  { answer: "booties", left: "25.1", top: "92.3", width: "67" },
+  { answer: "bodysuit/babygro",  left: "34.2", top: "91.1", width: "95" },
+  { answer: "rattle", left: "42.5", top: "92.5", width: "60" },
 
   // --- PAGE 95: 22.2 TOYS AND GAMES (Lưới trên) ---
   // Hàng 1
-  { answer: "toy", left: "56.4", top: "18.9", width: "28" },
-  { answer: "stuffed animal (US) / soft toy (UK)", left: "60.0", top: "17.5", width: "95" },
-  { answer: "doll", left: "73.2", top: "18.9", width: "28" },
-  { answer: "board game", left: "80.4", top: "18.9", width: "65" },
-  { answer: "playing cards", left: "88.1", top: "18.9", width: "68" },
+  { answer: "toy", left: "58.1", top: "21.7", width: "52" },
+  { answer: "stuffed animal/soft toy", left: "67.2", top: "20.7", width: "113"},
+  { answer: "doll", left: "75.4", top: "22.0", width: "49"},
+  { answer: "board game",  left: "84.0", top: "22.0", width: "83"},
+  { answer: "playing cards",  left: "92.5", top: "21.9", width: "89"},
 
   // Hàng 2
-  { answer: "dollhouse (US) / doll's house (UK)", left: "52.8", top: "34.8", width: "95" },
-  { answer: "building blocks / bricks", left: "61.8", top: "34.8", width: "85" },
-  { answer: "ball", left: "73.2", top: "35.9", width: "28" },
-  { answer: "spinning top", left: "80.0", top: "35.9", width: "68" },
-  { answer: "yo-yo", left: "90.2", top: "35.9", width: "35" },
+  { answer: "dollhouse/doll's house", left: "58.4", top: "38.6", width: "115" },
+  { answer: "building blocks / bricks",  left: "67.8", top: "38.6", width: "109" },
+  { answer: "ball",  left: "75.3", top: "39.4", width: "51"},
+  { answer: "spinning top", left: "83.8", top: "39.6", width: "82" },
+  { answer: "yo-yo", left: "92.6", top: "39.6", width: "76" },
 
   // Hàng 3
-  { answer: "jump rope (US) / skipping rope (UK)", left: "52.2", top: "51.8", width: "98" },
-  { answer: "jigsaw puzzle", left: "62.4", top: "52.8", width: "72" },
-  { answer: "train set", left: "72.8", top: "52.8", width: "48" },
-  { answer: "puppet", left: "81.6", top: "52.8", width: "42" },
-  { answer: "kite", left: "91.0", top: "52.8", width: "28" },
+  { answer: "jump rope/skipping rope",  left: "58.4", top: "56.0", width: "116"},
+  { answer: "jigsaw puzzle", left: "67.4", top: "56.7", width: "88" },
+  { answer: "train set",  left: "75.4", top: "56.8", width: "70" },
+  { answer: "puppet",  left: "83.4", top: "57.3", width: "63" },
+  { answer: "kite", left: "91.9", top: "57.4", width: "49"},
 
   // --- PAGE 95: 22.2 TOYS AND GAMES (Sơ đồ sân chơi dưới) ---
-  { answer: "swings", left: "54.6", top: "70.1", width: "42" },
-  { answer: "seesaw", left: "61.6", top: "88.4", width: "42" },
-  { answer: "playground", left: "68.2", top: "88.4", width: "65" },
-  { answer: "sandbox (US) / sandpit (UK)", left: "77.8", top: "88.4", width: "75" },
-  { answer: "climbing frame", left: "82.8", top: "64.8", width: "48" },
-  { answer: "slide", left: "82.8", top: "76.2", width: "28" },
-  { answer: "balloon", left: "90.0", top: "71.1", width: "42" },
-  { answer: "marbles", left: "89.8", top: "88.4", width: "45" }
+  { answer: "swings", left: "56.8", top: "73.6", width: "65"},
+  { answer: "seesaw", left: "62.7", top: "92.2", width: "62" },
+  { answer: "playground", left: "71.2", top: "92.2", width: "77"},
+  { answer: "sandbox/sandpit",  left: "81.1", top: "92.9", width: "113" },
+  { answer: "climbing frame", left: "86.6", top: "68.7", width: "94" },
+  { answer: "slide", left: "85.5", top: "79.1", width: "61" },
+  { answer: "balloon", left: "92.7", top: "74.4", width: "75" },
+  { answer: "marbles", left: "92.3", top: "92.0", width: "78" }
 ];
