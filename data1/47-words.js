@@ -1,0 +1,27 @@
+const PAGE_WORDS = [
+  { answer: "passport", left: "7.5", top: "24.7", width: "75" },
+  { answer: "suitcase", left: "16.4", top: "24.5", width: "75" },
+  { answer: "luggage", left: "25.4", top: "24.8", width: "75" },
+  { answer: "guidebook", left: "33.6", top: "24.8", width: "75" },
+  { answer: "phrasebook", left: "42.7", top: "25.0", width: "86" },
+  { answer: "one-way ticket", left: "7.7", top: "39.1", width: "106" },
+  {
+    answer: "round-trip/return ticket",
+    left: "16.9",
+    top: "37.8",
+    width: "123",
+  },
+  { answer: "direct flights", left: "25.7", top: "38.7", width: "94" },
+  { answer: "window seat", left: "33.9", top: "38.7", width: "94" },
+  { answer: "boarding pass", left: "42.2", top: "39.1", width: "94" },
+  { answer: "departure gate", left: "8.0", top: "52.6", width: "101" },
+  { answer: "passport control", left: "16.6", top: "52.9", width: "104" },
+  {
+    answer: "walking vacation/holiday",
+    left: "25.7",
+    top: "51.5",
+    width: "116",
+  },
+  { answer: "all-inclusive", left: "34.5", top: "52.6", width: "85" },
+  { answer: "guided tour", left: "42.5", top: "52.6", width: "85" },
+];
