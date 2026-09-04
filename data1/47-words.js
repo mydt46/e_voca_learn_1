@@ -57,7 +57,7 @@ const PAGE_WORDS = [
   { answer: "single room", left: "84.6", top: "35.0", width: "93" },
   { answer: "double room", left: "93.2", top: "35.3", width: "93" },
   { answer: "twin beds", left: "58.4", top: "52.4", width: "88" },
-  { answer: "drom", left: "66.8", top: "52.1", width: "66" },
+  { answer: "dorm", left: "66.8", top: "52.1", width: "66" },
   { answer: "en-suite/bathroom", left: "75.3", top: "51.0", width: "114" },
   { answer: "safe", left: "84.0", top: "52.1", width: "69" },
   { answer: "room service", left: "92.8", top: "52.5", width: "105" },
