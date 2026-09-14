@@ -5,7 +5,7 @@ const PAGE_WORDS = [
   { answer: "online shopping", left: "33.7", top: "25.3", width: "118" },
   { answer: "special offer", left: "42.3", top: "25.4", width: "105" },
   { answer: "bargain", left: "8.0", top: "39.6", width: "75" },
-  { answer: "wide arange", left: "16.8", top: "39.4", width: "92" },
+  { answer: "wide range", left: "16.8", top: "39.4", width: "92" },
   { answer: "convenient", left: "25.2", top: "39.7", width: "95" },
   { answer: "line/queue", left: "33.7", top: "38.0", width: "99" },
   { answer: "customer", left: "42.2", top: "39.4", width: "92" },
