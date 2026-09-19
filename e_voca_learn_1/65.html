@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies and plays</title>
+    <link rel="stylesheet" href="data/style.css" />
+    <!-- Favicon SVG -->
+    <link rel="icon" type="image/png" href="images/icon-letter-e.png" />
+  </head>
+  <body>
+    <nav class="topnav">
+      <a href="../index.html">🏠 Trang chủ</a>
+      <a href="43.html">Workplace skills and abilities</a>
+      <a href="44.html">Transportation and travel</a>
+      <a href="45.html">Driving a car</a>
+      <a href="46.html">Maps and directions</a>
+      <a href="47.html">Travel and accommodation</a>
+      <a href="51.html">Weather and climate</a>
+      <a href="52.html">Geographical features</a>
+      <a href="58.html">Free time activities</a>
+      <a href="59.html">Abilities and actions</a>
+      <a href="65.html" class="active">Movies and plays</a>
+      <a href="66.html">TV</a>
+      <a href="68.html">Sickness</a>
+      <a href="69.html">Medicine and treatment</a>
+      <a href="72.html">Around town</a>
+      <a href="73.html">Shopping</a>
+      <a href="74.html">At the supermarket</a>
+      <a href="76.html">Technology and gadgets</a>
+    </nav>
+
+    <div class="header">
+      <h1>🎪 Học từ vựng: Movies and plays</h1>
+
+      <div class="stats">
+        <span id="score">Đúng: 0</span>
+        <span id="total">/ 0</span>
+        <button id="checkAllBtn">Kiểm tra tất cả</button>
+        <button id="resetBtn">Làm lại</button>
+      </div>
+    </div>
+
+    <div class="board-wrap" style="max-width: 1280px">
+      <div class="board" style="width: 1280px" id="board">
+        <img src="images/65_movie.PNG" alt="Movies and plays" />
+      </div>
+    </div>
+
+    <p class="hint">
+      Mẹo: nhấn <b>Enter</b> để chuyển sang ô tiếp theo. Viền xanh = đúng, viền
+      đỏ = sai.
+    </p>
+
+    <!-- Quiz Section -->
+    <div class="quiz-section">
+      <div class="quiz-card">
+        <div class="quiz-header">
+          <h2>🎯 Quiz Ôn Tập Từ Vựng</h2>
+          <div class="quiz-progress-text">
+            Tiến độ: <span id="quizCurrentCount">0</span> /
+            <span id="quizTotalCount">0</span>
+          </div>
+        </div>
+
+        <div class="quiz-progress-bar-wrap">
+          <div class="quiz-progress-bar-fill" id="quizProgressBar"></div>
+        </div>
+
+        <div id="quizBody">
+          <div class="quiz-short-mean-tag" id="quizShortMeanTag">
+            🏷️ <b>Nghĩa vắn tắt:</b> <span id="quizShortMean">...</span>
+          </div>
+
+          <div class="quiz-mean-label">Giải nghĩa (Mean):</div>
+          <div class="quiz-mean-text" id="quizMean">Đang tải...</div>
+
+          <div class="quiz-input-group">
+            <div class="quiz-input-row">
+              <input
+                type="text"
+                id="quizInput"
+                class="quiz-input"
+                placeholder="Nhập từ tiếng Anh tương ứng..."
+                autocomplete="off"
+              />
+              <div class="quiz-hint-btn-wrap">
+                <button type="button" class="quiz-hint-btn" id="quizHintBtn">
+                  💡 Hint
+                </button>
+                <div class="quiz-hint-tooltip" id="quizHintTooltip">
+                  🔑 <span id="quizAnswerText">...</span>
+                </div>
+              </div>
+            </div>
+            <div class="quiz-hint-msg" id="quizHintMsg"></div>
+          </div>
+
+          <div class="quiz-footer-info">
+            <span>Nhấn <b>Enter</b> để kiểm tra đáp án.</span>
+          </div>
+        </div>
+
+        <div id="quizDone" class="quiz-done-container" style="display: none">
+          <div class="quiz-done-badge">🎉 DONE 🎉</div>
+          <h3 class="quiz-done-title">
+            Chúc mừng! Bạn đã hoàn thành xuất sắc toàn bộ bài quiz!
+          </h3>
+          <p class="quiz-done-subtitle">
+            Bạn đã ghi nhớ tất cả các từ vựng trong bài này.
+          </p>
+          <button id="quizRestartBtn" class="quiz-restart-btn">
+            🔄 Làm lại Quiz
+          </button>
+        </div>
+      </div>
+    </div>
+    <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+
+    <script src="data1/65-words.js"></script>
+    <script src="voca/65.js"></script>
+    <script src="data/script.js"></script>
+    <script src="data/quiz.js"></script>
+  </body>
+</html>
