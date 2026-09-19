@@ -1,0 +1,28 @@
+// Dữ liệu từ vựng cho chủ đề "In the city"
+// left/top: vị trí % theo ảnh gốc | width: độ rộng ô input (px)
+const PAGE_WORDS = [
+  { answer: "fountain",              left: 67.3, top: 12.3, width: 70 },
+  { answer: "veterinarian's office", left: 83.3, top: 12.6, width: 130 },
+  { answer: "theater",               left: 10.0, top: 30.6, width: 70 },
+  { answer: "movie theater",         left: 27.0, top: 28.6, width: 90 },
+  { answer: "takeout restaurant",    left: 42.2, top: 28.9, width: 110 },
+  { answer: "mall",                  left: 67.8, top: 28.4, width: 60 },
+  { answer: "bakery",                left: 90.7, top: 35.6, width: 70 },
+  { answer: "market",                left: 33.5, top: 42.5, width: 70 },
+  { answer: "shoppers",              left: 79.3, top: 38.0, width: 80 },
+  { answer: "synagogue",             left: 64.2, top: 48.0, width: 90 },
+  { answer: "construction site",     left: 8.2,  top: 56.2, width: 110 },
+  { answer: "bank",                  left: 87.0, top: 58.5, width: 60 },
+  { answer: "police station",        left: 44.2, top: 63.3, width: 100 },
+  { answer: "doctor's office",       left: 62.6, top: 61.8, width: 100 },
+  { answer: "hospital",              left: 22.4, top: 68.5, width: 75 },
+  { answer: "restaurant",            left: 8.8,  top: 82.8, width: 80 },
+  { answer: "museum",                left: 41.1, top: 82.8, width: 70 },
+  { answer: "butcher",               left: 65.8, top: 84.4, width: 70 },
+  { answer: "dentist",               left: 77.8, top: 84.4, width: 60 },
+  { answer: "grocery store",         left: 89.8, top: 84.3, width: 100 },
+  { answer: "road",                  left: 18.4, top: 90.6, width: 55 },
+  { answer: "taxi",                  left: 28.6, top: 90.7, width: 55 },
+  { answer: "bench",                 left: 46.8, top: 94.4, width: 60 },
+  { answer: "beach",                 left: 80.9, top: 96.8, width: 60 },
+];

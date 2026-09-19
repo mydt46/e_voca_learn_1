@@ -1,0 +1,26 @@
+// Dữ liệu từ vựng cho chủ đề "In the country"
+// left/top: vị trí % theo ảnh gốc | width: độ rộng ô input (px)
+const PAGE_WORDS = [
+  { answer: "birds",             left: 89.5, top: 7.0,  width: 55 },
+  { answer: "mountain bikers",   left: 41.0, top: 19.8, width: 110 },
+  { answer: "hikers",            left: 9.0,  top: 22.0, width: 65 },
+  { answer: "trail",             left: 24.5, top: 23.8, width: 55 },
+  { answer: "gate",              left: 43.0, top: 31.0, width: 55 },
+  { answer: "hedge",             left: 19.5, top: 34.6, width: 60 },
+  { answer: "tent",              left: 32.5, top: 40.0, width: 55 },
+  { answer: "bee's nest",        left: 88.5, top: 44.9, width: 80 },
+  { answer: "camper",            left: 33.5, top: 43.9, width: 65 },
+  { answer: "burrow",            left: 8.0,  top: 45.8, width: 65 },
+  { answer: "fox",               left: 17.5, top: 42.2, width: 50 },
+  { answer: "sticks",            left: 66.0, top: 46.2, width: 60 },
+  { answer: "kayak",             left: 83.0, top: 57.0, width: 60 },
+  { answer: "flowers",           left: 4.5,  top: 58.0, width: 65 },
+  { answer: "bee",               left: 41.5, top: 59.9, width: 45 },
+  { answer: "bud",               left: 8.0,  top: 68.9, width: 50 },
+  { answer: "dragonfly",         left: 77.5, top: 66.5, width: 75 },
+  { answer: "pine cone",         left: 9.5,  top: 85.0, width: 75 },
+  { answer: "horse chestnuts",   left: 38.5, top: 85.5, width: 105 },
+  { answer: "wild mushroom",     left: 55.5, top: 85.0, width: 95 },
+  { answer: "eggs",              left: 86.0, top: 81.0, width: 50 },
+  { answer: "tadpole",           left: 86.5, top: 94.5, width: 65 },
+];
