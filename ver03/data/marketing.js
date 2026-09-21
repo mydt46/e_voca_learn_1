@@ -1,0 +1,16 @@
+const PAGE_WORDS = [
+  { answer: "attract", left: "7.0", top: "21.1", width: "110" },
+  { answer: "compare", left: "23.9", top: "21.8", width: "110" },
+  { answer: "competition", left: "41.0", top: "21.5", width: "110" },
+  { answer: "consume", left: "57.9", top: "19.8", width: "110" },
+  { answer: "convince", left: "8.0", top: "39.5", width: "110" },
+  { answer: "currently", left: "24.5", top: "39.5", width: "110" },
+  { answer: "fad", left: "41.7", top: "37.8", width: "110" },
+  { answer: "inspiration", left: "58.3", top: "41.0", width: "110" },
+  { answer: "market", left: "7.9", top: "64.5", width: "110" },
+  { answer: "persuasion", left: "23.6", top: "63.8", width: "110" },
+  { answer: "productive", left: "42.6", top: "63.5", width: "110" },
+  { answer: "satisfaction", left: "58.1", top: "61.8", width: "110" },
+  { answer: "compare to", left: "74.8", top: "10.1", width: "110" },
+  { answer: "compare sth with sth", left: "76.2", top: "15.8", width: "147" },
+];
