@@ -1,0 +1,15 @@
+const PAGE_WORDS = [
+  { answer: "accommodate", left: "7.1", top: "22.3", width: "104" },
+  { answer: "arrangement", left: "22.7", top: "23.8", width: "104" },
+  { answer: "association", left: "40.3", top: "24.1", width: "101" },
+  { answer: "attend", left: "58.8", top: "22.5", width: "101" },
+  { answer: "get in touch", left: "6.3", top: "44.5", width: "95" },
+  { answer: "with", left: "13.6", top: "45.0", width: "50" },
+  { answer: "hold", left: "23.0", top: "45.0", width: "91" },
+  { answer: "location", left: "40.5", top: "43.3", width: "101" },
+  { answer: "overcrowded", left: "58.8", top: "44.7", width: "101" },
+  { answer: "register", left: "7.4", top: "66.8", width: "101" },
+  { answer: "select", left: "23.4", top: "66.0", width: "101" },
+  { answer: "session", left: "40.4", top: "63.8", width: "101" },
+  { answer: "take part in", left: "58.2", top: "64.5", width: "101" },
+];

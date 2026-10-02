@@ -11,9 +11,9 @@ const PAGE_WORDS = [
   { answer: "provision", left: "33.8", top: "92.8", width: "132" },
   { answer: "resolve", left: "61.6", top: "92.8", width: "132" },
   { answer: "specific", left: "88.5", top: "92.7", width: "132" },
+  { answer: "particular", left: "88.5", top: "98.0", width: "92" },
   { answer: "commitment", left: "95.0", top: "8.3", width: "113" },
   { answer: "negotiation", left: "94.8", top: "14.0", width: "113" },
-  { answer: "particular", left: "94.5", top: "19.7", width: "113" },
   { answer: "proposal", left: "94.5", top: "25.4", width: "113" },
   { answer: "quotation", left: "94.8", top: "31.5", width: "113" },
 ];
